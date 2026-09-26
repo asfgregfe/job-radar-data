@@ -30,6 +30,7 @@ def items(res):
 
 def main():
     key = os.environ.get("DATA_GO_KR_KEY", "").strip()
+    key = __import__("urllib.parse").parse.unquote(key) if "%" in key else key
     if not key:
         print("DATA_GO_KR_KEY 없음 — 국민연금 수집 건너뜀")
         return
