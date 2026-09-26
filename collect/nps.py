@@ -50,6 +50,19 @@ def call(session, op, key, **params):
 OPS = {"search": "getBassInfoSearch", "detail": "getDetailInfoSearch", "param": "wkpl_nm"}
 
 
+JUNK = ("/일용/", "아파트", "대리점", "새마을금고", "약국", "입주자", "공사", "프로젝트", "지점", "점 ", "센터", "노동조합", "노조", "사우회")
+
+
+def norm(n):
+    for t in ("(주)", "（주）", "㈜", "주식회사", "유한회사", " ", "\u3000"):
+        n = n.replace(t, "")
+    return n.strip().lower()
+
+
+def junk(n):
+    return any(j in n for j in JUNK)
+
+
 def pick_key(session, raw):
     """원본 키와 URL 디코딩한 키, 그리고 V2에서 기능명이 바뀌었을 가능성(…V2 접미사)까지 시험해 동작하는 조합을 고른다."""
     cands = [raw]
@@ -93,17 +106,31 @@ def main():
         return
     for name in names:
         q = name.replace("(주)", "").replace("주식회사", "").strip()
-        its, meta = call(s, OPS["search"], key, **{OPS["param"]: q})
-        if "error" in meta:
-            log.append(f"[{name}] 검색 오류: {meta['error'][:300]}")
-            continue
+        # 최대 3페이지(300건)까지 받아 정확 일치 후보를 찾는다
+        its = []
+        for page in (1, 2, 3):
+            page_items, meta = call(s, OPS["search"], key, **{OPS["param"]: q, "pageNo": page, "numOfRows": 100})
+            if "error" in meta:
+                log.append(f"[{name}] 검색 오류: {meta['error'][:300]}")
+                break
+            its += page_items
+            try:
+                if len(its) >= int(meta.get("totalCount") or 0) or not page_items:
+                    break
+            except ValueError:
+                break
         if not its:
             log.append(f"[{name}] 사업장 검색 결과 없음")
             continue
+        nq = norm(q)
+        exact = [it for it in its if norm(it.get("wkplNm", "")) == nq and it.get("wkplJnngStcd", "1") in ("1", "")]
+        prefix = [it for it in its if norm(it.get("wkplNm", "")).startswith(nq) and not junk(it.get("wkplNm", "")) and it.get("wkplJnngStcd", "1") in ("1", "")]
+        pool = exact or prefix
+        if not pool:
+            log.append(f"[{name}] 후보 {len(its)}건 중 법인명 일치 없음(예: {its[0].get('wkplNm','')[:40]})")
+            continue
         best = None
-        for it in its:
-            if it.get("wkplJnngStcd", "1") not in ("1", ""):
-                continue  # 탈퇴 사업장 제외
+        for it in pool[:8]:
             seq = it.get("seq")
             if not seq:
                 continue
@@ -117,7 +144,7 @@ def main():
             if cnt and (best is None or cnt > best["members"]):
                 best = {"wkplNm": it.get("wkplNm"), "seq": seq, "addr": it.get("wkplRoadNmDtlAddr", ""), "members": cnt,
                         "notice_amt": amt, "dataCrtYm": d.get("dataCrtYm") or it.get("dataCrtYm"),
-                        "candidates": len(its)}
+                        "candidates": len(its), "match": "정확" if exact else "접두"}
             time.sleep(0.2)
         if not best:
             log.append(f"[{name}] 후보 {len(its)}건 중 가입자 수 확인 불가")
