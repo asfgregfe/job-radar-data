@@ -1,0 +1,33 @@
+{
+  "_comment": "사람인 오픈 API 검색어. 각 항목은 keywords 파라미터 한 번 호출. 결과는 experience-level 이름에 '신입'이 포함된 공고만 남긴다.",
+  "queries": [
+    {"keywords": "항공", "count": 110, "sort": "pd"},
+    {"keywords": "항공사", "count": 110, "sort": "pd"},
+    {"keywords": "운항관리", "count": 110, "sort": "pd"},
+    {"keywords": "종합통제", "count": 50, "sort": "pd"},
+    {"keywords": "항공화물", "count": 110, "sort": "pd"},
+    {"keywords": "GSA", "count": 110, "sort": "pd"},
+    {"keywords": "외항사", "count": 110, "sort": "pd"},
+    {"keywords": "포워딩 신입", "count": 110, "sort": "pd"},
+    {"keywords": "물류 신입 공채", "count": 110, "sort": "pd"},
+    {"keywords": "SCM 신입", "count": 110, "sort": "pd"},
+    {"keywords": "해외영업 신입", "count": 110, "sort": "pd"},
+    {"keywords": "사업기획 신입", "count": 110, "sort": "pd"},
+    {"keywords": "전략기획 신입", "count": 110, "sort": "pd"},
+    {"keywords": "마케팅 신입 공채", "count": 110, "sort": "pd"},
+    {"keywords": "채용연계형 인턴", "count": 110, "sort": "pd"},
+    {"keywords": "신입사원 공개채용", "count": 110, "sort": "pd"},
+    {"keywords": "대졸 신입 공채", "count": 110, "sort": "pd"},
+    {"keywords": "동계 인턴", "count": 110, "sort": "pd"},
+    {"keywords": "항공우주 사업관리", "count": 110, "sort": "pd"},
+    {"keywords": "드론 사업", "count": 60, "sort": "pd"},
+    {"keywords": "여행사 신입", "count": 60, "sort": "pd"},
+    {"keywords": "공항 신입 사무", "count": 60, "sort": "pd"}
+  ],
+  "exclude_title_patterns": [
+    "간호", "조리", "바리스타", "미화", "배송기사", "운전", "경비", "지게차", "생산직", "현장직", "기능직",
+    "피부관리", "승무원학원", "학원", "카마스터", "딜러", "텔레마케", "TM ", "아르바이트", "알바", "파트타임",
+    "일본어 필수", "중국어 필수", "일본어 능통", "중국어 능통"
+  ],
+  "exclude_company_patterns": ["맨파워", "템프인", "케이스탬프", "아데코", "유니에스", "이케이맨파워", "퍼솔코리아", "스타에이치알", "애플트리", "엠제이플렉스"]
+}

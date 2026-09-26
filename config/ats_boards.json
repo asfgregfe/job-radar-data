@@ -1,0 +1,16 @@
+{
+  "_comment": "공식 공개 API가 있는 ATS. greenhouse: https://boards-api.greenhouse.io/v1/boards/<board>/jobs , lever: https://api.lever.co/v0/postings/<site>?mode=json . board 이름은 회사 채용 페이지 URL에서 확인 후 추가. 확인되지 않은 항목은 verified=false로 두고 결과가 비면 로그에만 남긴다.",
+  "greenhouse": [
+    {"board": "alphasights", "company": "AlphaSights", "verified": true},
+    {"board": "klook", "company": "Klook", "verified": false},
+    {"board": "appier", "company": "Appier", "verified": false},
+    {"board": "asteralabs", "company": "Astera Labs", "verified": false},
+    {"board": "krafton", "company": "KRAFTON", "verified": false}
+  ],
+  "lever": [
+    {"site": "cake", "company": "Cake", "verified": false},
+    {"site": "bain", "company": "Bain & Company", "verified": false}
+  ],
+  "location_keywords": ["Seoul", "Korea", "Taipei", "Taiwan", "Singapore", "Hong Kong", "Dubai", "Remote", "Tokyo"],
+  "title_keywords": ["Graduate", "Intern", "Associate", "Trainee", "Analyst", "Entry", "2027", "Programme", "Program"]
+}
