@@ -44,10 +44,10 @@ def call(session, op, key, **params):
     items = []
     for it in root.iter("item"):
         items.append({c.tag: (c.text or "").strip() for c in it})
-    return items, {"totalCount": root.findtext("body/totalCount")}
+    return items, {"totalCount": root.findtext("body/totalCount"), "raw": text[:900], "root": root.tag}
 
 
-OPS = {"search": "getBassInfoSearch", "detail": "getDetailInfoSearch"}
+OPS = {"search": "getBassInfoSearch", "detail": "getDetailInfoSearch", "param": "wkpl_nm"}
 
 
 def pick_key(session, raw):
@@ -56,15 +56,23 @@ def pick_key(session, raw):
     if "%" in raw:
         cands.append(urllib.parse.unquote(raw))
     last = None
+    diag = []
     for k in cands:
         for suffix in ("", "V2"):
-            items, meta = call(session, "getBassInfoSearch" + suffix, k, wkpl_nm="삼성전자")
-            if "error" not in meta:
-                OPS["search"] = "getBassInfoSearch" + suffix
-                OPS["detail"] = "getDetailInfoSearch" + suffix
-                return k, None
-            last = meta["error"]
-    return None, last
+            for pname in ("wkpl_nm", "wkplNm"):
+                items, meta = call(session, "getBassInfoSearch" + suffix, k, **{pname: "삼성전자"})
+                if "error" in meta:
+                    last = meta["error"]
+                    diag.append(f"{suffix or 'v1명'}/{pname}: {meta['error'][:200]}")
+                    continue
+                if items:
+                    OPS["search"] = "getBassInfoSearch" + suffix
+                    OPS["detail"] = "getDetailInfoSearch" + suffix
+                    OPS["param"] = pname
+                    return k, None
+                last = f"응답은 정상이나 item 없음 (root={meta.get('root')}, totalCount={meta.get('totalCount')}) raw={meta.get('raw','')[:600]}"
+                diag.append(f"{suffix or 'v1명'}/{pname}: item 없음 raw={meta.get('raw','')[:300]}")
+    return None, last + " || 시도 내역: " + " | ".join(diag)
 
 
 def main():
@@ -85,7 +93,7 @@ def main():
         return
     for name in names:
         q = name.replace("(주)", "").replace("주식회사", "").strip()
-        its, meta = call(s, OPS["search"], key, wkpl_nm=q)
+        its, meta = call(s, OPS["search"], key, **{OPS["param"]: q})
         if "error" in meta:
             log.append(f"[{name}] 검색 오류: {meta['error'][:300]}")
             continue
