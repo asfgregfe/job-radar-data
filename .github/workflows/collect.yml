@@ -1,0 +1,44 @@
+name: collect-job-data
+
+on:
+  schedule:
+    - cron: "10 21 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: 사람인 오픈 API
+        env:
+          SARAMIN_KEY: ${{ secrets.SARAMIN_KEY }}
+        run: python collect/saramin.py
+      - name: ATS 공개 API (Greenhouse/Lever)
+        run: python collect/ats.py
+      - name: DART 직원현황 (일요일 또는 수동 실행)
+        env:
+          DART_KEY: ${{ secrets.DART_KEY }}
+        run: |
+          if [ "$(date -u +%u)" = "7" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python collect/dart.py; else echo "DART는 일요일(UTC)에만 실행"; fi
+      - name: 국민연금 사업장 (일요일 또는 수동 실행)
+        env:
+          DATA_GO_KR_KEY: ${{ secrets.DATA_GO_KR_KEY }}
+        run: |
+          if [ "$(date -u +%u)" = "7" ] || [ "${{ github.event_name }}" = "workflow_dispatch" ]; then python collect/nps.py; else echo "NPS는 일요일(UTC)에만 실행"; fi
+      - name: 요약 생성
+        run: python collect/build.py
+      - name: 커밋
+        run: |
+          git config user.name "job-radar-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add data/
+          git diff --cached --quiet && echo "변경 없음" || git commit -m "data: $(TZ=Asia/Seoul date +%Y-%m-%d) 수집"
+          git push
