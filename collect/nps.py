@@ -1,37 +1,68 @@
 """공공데이터포털 — 국민연금공단 국민연금 가입 사업장 내역(B552015/NpsBplcInfoInqireService).
 
 - getBassInfoSearch(wkpl_nm)로 사업장을 찾고, getDetailInfoSearch(seq)로 가입자 수(jnngpCnt)·당월고지금액(crrmmNtcAmt)을 받는다.
+- 이 API는 XML로 응답한다(_type=json 미지원). 여기서는 XML을 직접 파싱한다.
 - 월평균 보수 추정 = 당월고지금액 / 가입자수 / 보험료율. 2026년 보험료율은 9.5%(2025 개정, 매년 0.5%p 인상)로 두었고,
   기준소득월액 상한(2026년 기준 약 637만 원) 때문에 고연봉 기업은 과소 추정된다는 점을 결과에 함께 적는다.
-- 응답 필드명은 공공데이터포털 명세 기준이며, 명세가 바뀌면 여기만 고친다.
+- 인증키는 포털에 표시된 값을 그대로 Secrets에 넣으면 된다. 인코딩/디코딩 두 형태를 첫 호출에서 모두 시도해 되는 쪽을 쓴다.
 """
 import os
 import sys
+import time
+import urllib.parse
+import xml.etree.ElementTree as ET
 
 import requests
 
-from common import get_json, load_config, load_data, save_data, today
+from common import load_config, load_data, save_data, today
 
 BASE = "https://apis.data.go.kr/B552015/NpsBplcInfoInqireService"
 RATE = 0.095  # 2026 국민연금 보험료율(사업장 합계). 2027년부터 0.10, 이후 매년 +0.005
 CEILING_MONTHLY = 6_370_000  # 기준소득월액 상한(2025.7~2026.6 6,370,000원; 매년 7월 갱신 — 확인 필요)
 
 
-def items(res):
+def call(session, op, key, **params):
+    """XML 응답을 (items, meta) 로 돌려준다. meta에는 totalCount 또는 오류 메시지."""
+    p = {"serviceKey": key, "pageNo": 1, "numOfRows": 30}
+    p.update(params)
     try:
-        body = res["response"]["body"]["items"]
-        it = body.get("item") if isinstance(body, dict) else None
-        if it is None:
-            return []
-        return it if isinstance(it, list) else [it]
-    except (KeyError, TypeError):
-        return []
+        r = session.get(f"{BASE}/{op}", params=p, timeout=30)
+    except Exception as e:  # noqa: BLE001
+        return [], {"error": repr(e)}
+    text = r.text
+    try:
+        root = ET.fromstring(text)
+    except ET.ParseError:
+        return [], {"error": f"HTTP {r.status_code} 비XML 응답: {text[:300]}"}
+    if root.tag == "OpenAPI_ServiceResponse":
+        h = root.find("cmmMsgHeader")
+        msg = " / ".join(f"{c.tag}={c.text}" for c in h) if h is not None else text[:300]
+        return [], {"error": f"HTTP {r.status_code} {msg}"}
+    code = root.findtext("header/resultCode")
+    if code not in (None, "00", "0"):
+        return [], {"error": f"resultCode={code} {root.findtext('header/resultMsg')}"}
+    items = []
+    for it in root.iter("item"):
+        items.append({c.tag: (c.text or "").strip() for c in it})
+    return items, {"totalCount": root.findtext("body/totalCount")}
+
+
+def pick_key(session, raw):
+    """원본 키와 URL 디코딩한 키 중 실제로 동작하는 쪽을 고른다."""
+    cands = [raw]
+    if "%" in raw:
+        cands.append(urllib.parse.unquote(raw))
+    for k in cands:
+        items, meta = call(session, "getBassInfoSearch", k, wkpl_nm="삼성전자")
+        if "error" not in meta:
+            return k, None
+        last = meta["error"]
+    return None, last
 
 
 def main():
-    key = os.environ.get("DATA_GO_KR_KEY", "").strip()
-    key = __import__("urllib.parse").parse.unquote(key) if "%" in key else key
-    if not key:
+    raw = os.environ.get("DATA_GO_KR_KEY", "").strip()
+    if not raw:
         print("DATA_GO_KR_KEY 없음 — 국민연금 수집 건너뜀")
         return
     names = load_config("companies.json")["companies"]
@@ -39,21 +70,30 @@ def main():
     comp = prev.get("companies", {})
     s = requests.Session()
     log = []
+    key, err = pick_key(s, raw)
+    if not key:
+        log.append(f"인증키 검증 실패(원본·디코딩 모두): {err}")
+        save_data("companies.json", {"generated": today(), "companies": comp, "nps_log": log, "dart_log": prev.get("dart_log", [])})
+        print("\n".join(log))
+        return
     for name in names:
         q = name.replace("(주)", "").replace("주식회사", "").strip()
-        res = get_json(s, f"{BASE}/getBassInfoSearch", params={"serviceKey": key, "pageNo": 1, "numOfRows": 20, "wkpl_nm": q, "_type": "json"})
-        its = items(res)
-        if not its:
-            log.append(f"[{name}] 사업장 검색 결과 없음: {str(res)[:100]}")
+        its, meta = call(s, "getBassInfoSearch", key, wkpl_nm=q)
+        if "error" in meta:
+            log.append(f"[{name}] 검색 오류: {meta['error'][:300]}")
             continue
-        # 가입 상태(wkplJnngStcd 1=등록)인 것 중 가입자수가 최대인 사업장을 고른다
+        if not its:
+            log.append(f"[{name}] 사업장 검색 결과 없음")
+            continue
         best = None
         for it in its:
-            if str(it.get("wkplJnngStcd", "1")) not in ("1", ""):
-                continue
+            if it.get("wkplJnngStcd", "1") not in ("1", ""):
+                continue  # 탈퇴 사업장 제외
             seq = it.get("seq")
-            det = get_json(s, f"{BASE}/getDetailInfoSearch", params={"serviceKey": key, "seq": seq, "_type": "json"})
-            d = (items(det) or [{}])[0]
+            if not seq:
+                continue
+            det, dmeta = call(s, "getDetailInfoSearch", key, seq=seq)
+            d = det[0] if det else {}
             try:
                 cnt = int(d.get("jnngpCnt") or 0)
                 amt = int(d.get("crrmmNtcAmt") or 0)
@@ -61,9 +101,11 @@ def main():
                 continue
             if cnt and (best is None or cnt > best["members"]):
                 best = {"wkplNm": it.get("wkplNm"), "seq": seq, "addr": it.get("wkplRoadNmDtlAddr", ""), "members": cnt,
-                        "notice_amt": amt, "dataCrtYm": d.get("dataCrtYm") or it.get("dataCrtYm")}
+                        "notice_amt": amt, "dataCrtYm": d.get("dataCrtYm") or it.get("dataCrtYm"),
+                        "candidates": len(its)}
+            time.sleep(0.2)
         if not best:
-            log.append(f"[{name}] 가입자 수 확인 불가")
+            log.append(f"[{name}] 후보 {len(its)}건 중 가입자 수 확인 불가")
             continue
         monthly = best["notice_amt"] / best["members"] / RATE if best["members"] else 0
         best["est_monthly_krw"] = int(monthly)

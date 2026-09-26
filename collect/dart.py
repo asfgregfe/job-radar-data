@@ -5,6 +5,7 @@
 - 필드 의미: sm 합계 인원, avrg_cnwk_sdytrn 평균 근속연수, jan_salary_am 1인 평균 급여액(원), fo_bbm 사업부문, sexdstn 성별.
 """
 import io
+import json
 import os
 import sys
 import zipfile
@@ -20,9 +21,13 @@ EMP = "https://opendart.fss.or.kr/api/empSttus.json"
 
 
 def load_corp_map(key, session):
-    cache = os.path.join(DATA, "_dart_corpcode.json")
+    # 예전 버전이 data/에 남긴 10MB 캐시는 저장소에서 제거한다(커밋 대상이 아님)
+    stale = os.path.join(DATA, "_dart_corpcode.json")
+    if os.path.exists(stale):
+        os.remove(stale)
+    cache = "/tmp/_dart_corpcode.json"
     if os.path.exists(cache):
-        return load_data("_dart_corpcode.json", {})
+        return json.load(open(cache, encoding="utf-8"))
     r = session.get(CORP, params={"crtfc_key": key}, timeout=60)
     r.raise_for_status()
     z = zipfile.ZipFile(io.BytesIO(r.content))
@@ -35,7 +40,8 @@ def load_corp_map(key, session):
         stock = (el.findtext("stock_code") or "").strip()
         if name and code:
             m.setdefault(name, []).append({"corp_code": code, "stock_code": stock})
-    save_data("_dart_corpcode.json", m)
+    with open(cache, "w", encoding="utf-8") as f:
+        json.dump(m, f, ensure_ascii=False)
     return m
 
 
@@ -116,7 +122,7 @@ def main():
                 "segments": segs, "fetched": today(),
             }
         })
-        log.append(f"[{name}] {c['matched_name']} {y}: 직원 {total_emp}명, 평균급여 {d['dart']['avg_salary_krw']}원")
+        log.append(f"[{name}] {c['matched_name']} {y}: 직원 {total_emp}명, 평균급여 {d['dart']['avg_salary_krw'] or '미기재(부문별 공시 없음)'}원")
     save_data("companies.json", {"generated": today(), "companies": comp, "dart_log": log})
     print("\n".join(log))
 
