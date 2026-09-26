@@ -16,7 +16,7 @@ import requests
 
 from common import load_config, load_data, save_data, today
 
-BASE = "https://apis.data.go.kr/B552015/NpsBplcInfoInqireService"
+BASE = "https://apis.data.go.kr/B552015/NpsBplcInfoInqireServiceV2"  # 2026-09-26 사용자 확인: V2로 이전(구 주소는 코드 12 폐기 오류)
 RATE = 0.095  # 2026 국민연금 보험료율(사업장 합계). 2027년부터 0.10, 이후 매년 +0.005
 CEILING_MONTHLY = 6_370_000  # 기준소득월액 상한(2025.7~2026.6 6,370,000원; 매년 7월 갱신 — 확인 필요)
 
@@ -47,16 +47,23 @@ def call(session, op, key, **params):
     return items, {"totalCount": root.findtext("body/totalCount")}
 
 
+OPS = {"search": "getBassInfoSearch", "detail": "getDetailInfoSearch"}
+
+
 def pick_key(session, raw):
-    """원본 키와 URL 디코딩한 키 중 실제로 동작하는 쪽을 고른다."""
+    """원본 키와 URL 디코딩한 키, 그리고 V2에서 기능명이 바뀌었을 가능성(…V2 접미사)까지 시험해 동작하는 조합을 고른다."""
     cands = [raw]
     if "%" in raw:
         cands.append(urllib.parse.unquote(raw))
+    last = None
     for k in cands:
-        items, meta = call(session, "getBassInfoSearch", k, wkpl_nm="삼성전자")
-        if "error" not in meta:
-            return k, None
-        last = meta["error"]
+        for suffix in ("", "V2"):
+            items, meta = call(session, "getBassInfoSearch" + suffix, k, wkpl_nm="삼성전자")
+            if "error" not in meta:
+                OPS["search"] = "getBassInfoSearch" + suffix
+                OPS["detail"] = "getDetailInfoSearch" + suffix
+                return k, None
+            last = meta["error"]
     return None, last
 
 
@@ -78,7 +85,7 @@ def main():
         return
     for name in names:
         q = name.replace("(주)", "").replace("주식회사", "").strip()
-        its, meta = call(s, "getBassInfoSearch", key, wkpl_nm=q)
+        its, meta = call(s, OPS["search"], key, wkpl_nm=q)
         if "error" in meta:
             log.append(f"[{name}] 검색 오류: {meta['error'][:300]}")
             continue
@@ -92,7 +99,7 @@ def main():
             seq = it.get("seq")
             if not seq:
                 continue
-            det, dmeta = call(s, "getDetailInfoSearch", key, seq=seq)
+            det, dmeta = call(s, OPS["detail"], key, seq=seq)
             d = det[0] if det else {}
             try:
                 cnt = int(d.get("jnngpCnt") or 0)
