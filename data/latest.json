@@ -1,5 +1,5 @@
 {
- "generated": "2026-09-27",
+ "generated": "2026-09-28",
  "saramin_new": [],
  "saramin_active_count": 0,
  "ats_new": [],
@@ -57,21 +57,22 @@
       "평균근속_년": 16.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "대한항공씨앤디서비스 주식회사",
-    "seq": "6886016",
-    "addr": "서울특별시 종로구 종로1길",
-    "members": 369,
-    "notice_amt": 184681580,
-    "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 5268337,
-    "est_annual_krw": 63220053,
+    "wkplNm": "대한항공(주)",
+    "seq": "4733949",
+    "addr": "서울특별시 강서구 하늘길",
+    "members": 18057,
+    "notice_amt": 10341860280,
+    "dataCrtYm": "202605",
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 6028780,
+    "est_annual_krw": 72345364,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "진에어": {
@@ -99,21 +100,22 @@
       "평균근속_년": 6.52
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)진에어",
-    "seq": "6026472",
+    "seq": "5405426",
     "addr": "서울특별시 강서구 마곡중앙로",
-    "members": 2231,
-    "notice_amt": 1050964200,
-    "dataCrtYm": "202607",
-    "candidates": 30,
-    "est_monthly_krw": 4958664,
-    "est_annual_krw": 59503976,
+    "members": 2244,
+    "notice_amt": 956335040,
+    "dataCrtYm": "202606",
+    "candidates": 167,
+    "match": "정확",
+    "est_monthly_krw": 4486044,
+    "est_annual_krw": 53832538,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "제주항공": {
@@ -141,21 +143,22 @@
       "평균근속_년": 7.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)제주항공",
-    "seq": "3602727",
+    "seq": "2686746",
     "addr": "제주특별자치도 제주시 도령로",
-    "members": 2756,
-    "notice_amt": 1171849440,
-    "dataCrtYm": "202603",
-    "candidates": 30,
-    "est_monthly_krw": 4475782,
-    "est_annual_krw": 53709393,
+    "members": 2804,
+    "notice_amt": 1193608620,
+    "dataCrtYm": "202601",
+    "candidates": 51,
+    "match": "정확",
+    "est_monthly_krw": 4480849,
+    "est_annual_krw": 53770190,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "CJ대한통운": {
@@ -183,7 +186,7 @@
       "평균근속_년": 7.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "CJ대한통운 사하대리점",
@@ -295,21 +298,22 @@
       "평균근속_년": 9.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "돈암한신한진아파트입주자대표회의",
-    "seq": "7077109",
-    "addr": "서울특별시 성북구 성북로4길",
-    "members": 21,
-    "notice_amt": 6532520,
+    "wkplNm": "(주)한진",
+    "seq": "6588998",
+    "addr": "대구광역시 수성구 알파시티1로4길",
+    "members": 39,
+    "notice_amt": 16996380,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 3274446,
-    "est_annual_krw": 39293353,
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 4587417,
+    "est_annual_krw": 55049004,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "현대글로비스": {
@@ -393,7 +397,7 @@
       "평균근속_년": 7.15
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "현대글로비스(주)",
@@ -402,12 +406,13 @@
     "members": 2107,
     "notice_amt": 1268438360,
     "dataCrtYm": "202607",
-    "candidates": 30,
+    "candidates": 90,
+    "match": "정확",
     "est_monthly_krw": 6336963,
     "est_annual_krw": 76043565,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한솔로지스틱스": {
@@ -435,7 +440,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한솔로지스틱스",
@@ -445,11 +450,12 @@
     "notice_amt": 119693740,
     "dataCrtYm": "202608",
     "candidates": 25,
+    "match": "정확",
     "est_monthly_krw": 4666422,
     "est_annual_krw": 55997071,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한솔제지": {
@@ -477,21 +483,22 @@
       "평균근속_년": 9.8
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한솔제지（주）",
-    "seq": "1951265",
+    "seq": "4372986",
     "addr": "서울특별시 중구 을지로",
-    "members": 1689,
-    "notice_amt": 836487560,
-    "dataCrtYm": "202512",
+    "members": 1664,
+    "notice_amt": 866509760,
+    "dataCrtYm": "202604",
     "candidates": 23,
-    "est_monthly_krw": 5213222,
-    "est_annual_krw": 62558665,
+    "match": "정확",
+    "est_monthly_krw": 5481463,
+    "est_annual_krw": 65777562,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "동원산업": {
@@ -561,21 +568,22 @@
       "평균근속_년": 6.52
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "동원산업(주)",
-    "seq": "6511891",
-    "addr": "서울특별시 서초구 마방로",
-    "members": 405,
-    "notice_amt": 185484740,
+    "seq": "6636607",
+    "addr": "경기도 안산시 단원구 범지기로141번길",
+    "members": 69,
+    "notice_amt": 21132220,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 4820915,
-    "est_annual_krw": 57850991,
+    "candidates": 203,
+    "match": "정확",
+    "est_monthly_krw": 3223832,
+    "est_annual_krw": 38685986,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "기아": {
@@ -603,21 +611,22 @@
       "평균근속_년": 14.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "(주)운일스페이스/일용/AutoLand 화성 기아 LW 프로젝트 중 수장공사(조립공장)",
-    "seq": "7083200",
+    "wkplNm": "기아굿모닝의원",
+    "seq": "6914230",
     "addr": "경기도 화성시 만세구 우정읍 기아자동차로",
-    "members": 58,
-    "notice_amt": 25061920,
+    "members": 28,
+    "notice_amt": 10012300,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 4548442,
-    "est_annual_krw": 54581313,
+    "candidates": 300,
+    "match": "접두",
+    "est_monthly_krw": 3764022,
+    "est_annual_krw": 45168270,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "현대자동차": {
@@ -645,21 +654,22 @@
       "평균근속_년": 11.3
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "(주)신성엔지니어링/일용/현대자동차 0-프로젝트 건설공사",
-    "seq": "7074927",
-    "addr": "경기도 안성시 서운면 서운신기길",
-    "members": 146,
-    "notice_amt": 74006520,
+    "wkplNm": "현대자동차(주)",
+    "seq": "6511263",
+    "addr": "서울특별시 서초구 헌릉로",
+    "members": 65929,
+    "notice_amt": 40043197140,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 5335726,
-    "est_annual_krw": 64028712,
-    "ceiling_hit": false,
-    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 6393352,
+    "est_annual_krw": 76720230,
+    "ceiling_hit": true,
+    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
+    "fetched": "2026-09-28"
    }
   },
   "LG유플러스": {
@@ -687,7 +697,7 @@
       "평균근속_년": 9.8
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "지원에너지 주식회사/일용/LG유플러스 파주센터 지중관로 및 C주차장 태양광설비 공사",
@@ -729,21 +739,22 @@
       "평균근속_년": 6.9
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한국타이어앤테크놀로지(주)",
-    "seq": "5466077",
+    "seq": "3159413",
     "addr": "경기도 성남시 분당구 판교로",
-    "members": 2506,
-    "notice_amt": 1392805020,
-    "dataCrtYm": "202606",
-    "candidates": 30,
-    "est_monthly_krw": 5850401,
-    "est_annual_krw": 70204814,
+    "members": 2507,
+    "notice_amt": 1390694120,
+    "dataCrtYm": "202602",
+    "candidates": 62,
+    "match": "정확",
+    "est_monthly_krw": 5839204,
+    "est_annual_krw": 70070453,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한국앤컴퍼니": {
@@ -785,21 +796,22 @@
       "평균근속_년": 6.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한국앤컴퍼니(주)",
-    "seq": "2074310",
+    "seq": "6305543",
     "addr": "경기도 성남시 분당구 판교로",
-    "members": 739,
-    "notice_amt": 393024160,
-    "dataCrtYm": "202512",
-    "candidates": 30,
-    "est_monthly_krw": 5598236,
-    "est_annual_krw": 67178832,
-    "ceiling_hit": false,
-    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "members": 735,
+    "notice_amt": 438884580,
+    "dataCrtYm": "202607",
+    "candidates": 39,
+    "match": "정확",
+    "est_monthly_krw": 6285493,
+    "est_annual_krw": 75425921,
+    "ceiling_hit": true,
+    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
+    "fetched": "2026-09-28"
    }
   },
   "HL만도": {
@@ -827,7 +839,7 @@
       "평균근속_년": 6.7
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "HL홀딩스": {
@@ -869,7 +881,7 @@
       "평균근속_년": 5.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "HD현대중공업": {
@@ -939,7 +951,7 @@
       "평균근속_년": 3.1
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "HD현대중공업새마을금고",
@@ -981,7 +993,7 @@
       "평균근속_년": 4.3
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "HD현대마린솔루션": {
@@ -1009,7 +1021,7 @@
       "평균근속_년": 5.2
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "HD현대오일뱅크": {
@@ -1037,7 +1049,7 @@
       "평균근속_년": 9.9
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "메인테크플랜트주식회사/일용/HD현대오일뱅크 대산 LBO Gr.3 Project 시공 플랜트",
@@ -1079,7 +1091,7 @@
       "평균근속_년": 4.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "（주）환승이엔지/일용/HD현대일렉트릭울산초고압변압기공장증설공사-소방공사",
@@ -1121,21 +1133,22 @@
       "평균근속_년": 6.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한화오션(주)",
-    "seq": "6645872",
+    "seq": "2733954",
     "addr": "경상남도 거제시 거제대로",
-    "members": 10304,
-    "notice_amt": 5993595780,
-    "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 6122911,
-    "est_annual_krw": 73474940,
-    "ceiling_hit": true,
-    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-09-26"
+    "members": 10352,
+    "notice_amt": 5711871920,
+    "dataCrtYm": "202601",
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 5808053,
+    "est_annual_krw": 69696639,
+    "ceiling_hit": false,
+    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
+    "fetched": "2026-09-28"
    }
   },
   "코스맥스비티아이": {
@@ -1163,7 +1176,7 @@
       "평균근속_년": 4.96
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "코스맥스비티아이(주)",
@@ -1173,11 +1186,12 @@
     "notice_amt": 199590240,
     "dataCrtYm": "202607",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5558068,
     "est_annual_krw": 66696822,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "DB손해보험": {
@@ -1205,21 +1219,22 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "(주)길리(일용)DB손해보험 부산사옥 신축공사 중 전기통신공사",
-    "seq": "5670712",
-    "addr": "",
-    "members": 13,
-    "notice_amt": 5254560,
-    "dataCrtYm": "202606",
-    "candidates": 30,
-    "est_monthly_krw": 4254704,
-    "est_annual_krw": 51056453,
+    "wkplNm": "DB손해보험 아이사랑어린이집",
+    "seq": "6725748",
+    "addr": "서울특별시 용산구 후암로",
+    "members": 12,
+    "notice_amt": 3212080,
+    "dataCrtYm": "202608",
+    "candidates": 133,
+    "match": "접두",
+    "est_monthly_krw": 2817614,
+    "est_annual_krw": 33811368,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한화손해보험": {
@@ -1247,7 +1262,7 @@
       "평균근속_년": 13.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한화손해보험주식회사",
@@ -1257,11 +1272,12 @@
     "notice_amt": 1800677740,
     "dataCrtYm": "202601",
     "candidates": 13,
+    "match": "정확",
     "est_monthly_krw": 5197286,
     "est_annual_krw": 62367433,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한국투자증권": {
@@ -1331,7 +1347,7 @@
       "평균근속_년": 11.5
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한국투자증권(주)",
@@ -1341,11 +1357,12 @@
     "notice_amt": 1674017620,
     "dataCrtYm": "202608",
     "candidates": 24,
+    "match": "정확",
     "est_monthly_krw": 6182890,
     "est_annual_krw": 74194686,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "교보증권": {
@@ -1387,7 +1404,7 @@
       "평균근속_년": 12.59
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "교보증권(주)",
@@ -1397,11 +1414,12 @@
     "notice_amt": 541840580,
     "dataCrtYm": "202604",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5984874,
     "est_annual_krw": 71818489,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "신한투자증권": {
@@ -1457,7 +1475,7 @@
       "평균근속_년": 11.91
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "신한투자증권(주)",
@@ -1467,11 +1485,12 @@
     "notice_amt": 1523157640,
     "dataCrtYm": "202608",
     "candidates": 14,
+    "match": "정확",
     "est_monthly_krw": 6207215,
     "est_annual_krw": 74486589,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한국자산신탁": {
@@ -1513,7 +1532,7 @@
       "평균근속_년": 9.9
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한국자산신탁(주)",
@@ -1523,11 +1542,12 @@
     "notice_amt": 86174020,
     "dataCrtYm": "202602",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 6047299,
     "est_annual_krw": 72567595,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "이수화학": {
@@ -1569,21 +1589,22 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)이수화학",
-    "seq": "965733",
+    "seq": "4882986",
     "addr": "서울특별시 서초구 사평대로",
-    "members": 308,
-    "notice_amt": 162917400,
-    "dataCrtYm": "202510",
+    "members": 304,
+    "notice_amt": 166408000,
+    "dataCrtYm": "202605",
     "candidates": 13,
-    "est_monthly_krw": 5567922,
-    "est_annual_krw": 66815064,
+    "match": "정확",
+    "est_monthly_krw": 5762049,
+    "est_annual_krw": 69144598,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "이수페타시스": {
@@ -1611,7 +1632,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)이수페타시스",
@@ -1620,12 +1641,13 @@
     "members": 1488,
     "notice_amt": 841775500,
     "dataCrtYm": "202608",
-    "candidates": 30,
+    "candidates": 50,
+    "match": "정확",
     "est_monthly_krw": 5954835,
     "est_annual_krw": 71458022,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "콜마홀딩스": {
@@ -1653,7 +1675,7 @@
       "평균근속_년": 6.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "콜마홀딩스 주식회사",
@@ -1663,11 +1685,12 @@
     "notice_amt": 63674020,
     "dataCrtYm": "202607",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5728656,
     "est_annual_krw": 68743881,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한국콜마": {
@@ -1695,7 +1718,7 @@
       "평균근속_년": 5.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "한국콜마주식회사",
@@ -1705,11 +1728,12 @@
     "notice_amt": 715957580,
     "dataCrtYm": "202607",
     "candidates": 28,
+    "match": "정확",
     "est_monthly_krw": 5020916,
     "est_annual_krw": 60250997,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "E1": {
@@ -1737,21 +1761,22 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "주식회사 E1",
-    "seq": "6509526",
+    "seq": "2964001",
     "addr": "서울특별시 용산구 한강대로",
-    "members": 338,
-    "notice_amt": 201254220,
-    "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 6267649,
-    "est_annual_krw": 75211791,
-    "ceiling_hit": true,
-    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-09-26"
+    "members": 345,
+    "notice_amt": 197408060,
+    "dataCrtYm": "202602",
+    "candidates": 280,
+    "match": "정확",
+    "est_monthly_krw": 6023129,
+    "est_annual_krw": 72277550,
+    "ceiling_hit": false,
+    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
+    "fetched": "2026-09-28"
    }
   },
   "HS효성": {
@@ -1779,7 +1804,7 @@
       "평균근속_년": 1.2
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한화호텔앤드리조트": {
@@ -1821,21 +1846,22 @@
       "평균근속_년": 2.6
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "한화호텔앤드리조트(주) 에스테이트 부문",
-    "seq": "6907090",
-    "addr": "서울특별시 중구 소공로",
-    "members": 1953,
-    "notice_amt": 623538540,
+    "wkplNm": "한화호텔앤드리조트(주)",
+    "seq": "6540289",
+    "addr": "강원특별자치도 속초시 미시령로2983번길",
+    "members": 492,
+    "notice_amt": 145559260,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 3360759,
-    "est_annual_krw": 40329115,
+    "candidates": 175,
+    "match": "정확",
+    "est_monthly_krw": 3114233,
+    "est_annual_krw": 37370798,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "세아홀딩스": {
@@ -1863,21 +1889,22 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "세아홀딩스(주)",
-    "seq": "301415",
+    "seq": "6518573",
     "addr": "",
-    "members": 61,
-    "notice_amt": 31344360,
-    "dataCrtYm": "202509",
+    "members": 57,
+    "notice_amt": 32933820,
+    "dataCrtYm": "202608",
     "candidates": 12,
-    "est_monthly_krw": 5408862,
-    "est_annual_krw": 64906353,
-    "ceiling_hit": false,
-    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "match": "정확",
+    "est_monthly_krw": 6081961,
+    "est_annual_krw": 72983534,
+    "ceiling_hit": true,
+    "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
+    "fetched": "2026-09-28"
    }
   },
   "슈피겐코리아": {
@@ -1905,21 +1932,22 @@
       "평균근속_년": 4.9
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "주식회사 슈피겐코리아",
-    "seq": "1540363",
+    "seq": "4854355",
     "addr": "서울특별시 강남구 봉은사로",
-    "members": 412,
-    "notice_amt": 170206020,
-    "dataCrtYm": "202511",
+    "members": 403,
+    "notice_amt": 173198500,
+    "dataCrtYm": "202605",
     "candidates": 12,
-    "est_monthly_krw": 4348646,
-    "est_annual_krw": 52183756,
+    "match": "정확",
+    "est_monthly_krw": 4523925,
+    "est_annual_krw": 54287109,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "신세계": {
@@ -1947,21 +1975,22 @@
       "평균근속_년": 13.7
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "차백도 대구 신세계점",
-    "seq": "7097085",
-    "addr": "대구광역시 동구 동부로",
-    "members": 13,
-    "notice_amt": 2185800,
+    "wkplNm": "주식회사신세계",
+    "seq": "6769932",
+    "addr": "경기도 시흥시 하우로122번길",
+    "members": 10,
+    "notice_amt": 2945120,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 1769878,
-    "est_annual_krw": 21238542,
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 3100126,
+    "est_annual_krw": 37201515,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "이마트": {
@@ -1989,21 +2018,22 @@
       "평균근속_년": 13.1
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
-    "wkplNm": "메가타운약국 봉담이마트점",
-    "seq": "7092108",
-    "addr": "경기도 화성시 효행구 봉담읍 효행로",
-    "members": 20,
-    "notice_amt": 4744220,
+    "wkplNm": "(주)이마트",
+    "seq": "6677037",
+    "addr": "서울특별시 중구 세종대로7길",
+    "members": 21585,
+    "notice_amt": 7849029900,
     "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 2496957,
-    "est_annual_krw": 29963494,
+    "candidates": 300,
+    "match": "정확",
+    "est_monthly_krw": 3827721,
+    "est_annual_krw": 45932657,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "신세계푸드": {
@@ -2031,21 +2061,22 @@
       "평균근속_년": 6.8
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)신세계푸드",
-    "seq": "1255492",
+    "seq": "2436088",
     "addr": "서울특별시 성동구 성수일로",
-    "members": 3154,
-    "notice_amt": 1160022180,
-    "dataCrtYm": "202511",
+    "members": 2202,
+    "notice_amt": 884023220,
+    "dataCrtYm": "202601",
     "candidates": 16,
-    "est_monthly_krw": 3871515,
-    "est_annual_krw": 46458185,
+    "match": "정확",
+    "est_monthly_krw": 4225934,
+    "est_annual_krw": 50711212,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "크래프톤": {
@@ -2073,21 +2104,22 @@
       "평균근속_년": 3.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)크래프톤",
-    "seq": "6581783",
+    "seq": "2401493",
     "addr": "서울특별시 강남구 테헤란로",
-    "members": 1874,
-    "notice_amt": 1077045280,
-    "dataCrtYm": "202608",
-    "candidates": 30,
-    "est_monthly_krw": 6049796,
-    "est_annual_krw": 72597558,
+    "members": 2072,
+    "notice_amt": 1146584100,
+    "dataCrtYm": "202601",
+    "candidates": 64,
+    "match": "정확",
+    "est_monthly_krw": 5824954,
+    "est_annual_krw": 69899457,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "이스트소프트": {
@@ -2115,21 +2147,22 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "(주)이스트소프트",
-    "seq": "913983",
+    "seq": "3014228",
     "addr": "서울특별시 서초구 반포대로",
-    "members": 236,
-    "notice_amt": 88350200,
-    "dataCrtYm": "202510",
+    "members": 233,
+    "notice_amt": 92131280,
+    "dataCrtYm": "202602",
     "candidates": 12,
-    "est_monthly_krw": 3940686,
-    "est_annual_krw": 47288242,
+    "match": "정확",
+    "est_monthly_krw": 4162244,
+    "est_annual_krw": 49946932,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "카카오모빌리티": {
@@ -2157,7 +2190,7 @@
       "평균근속_년": 3.8
      }
     ],
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    },
    "nps": {
     "wkplNm": "주식회사카카오모빌리티",
@@ -2167,11 +2200,12 @@
     "notice_amt": 495341960,
     "dataCrtYm": "202607",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5761465,
     "est_annual_krw": 69137580,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "티웨이항공": {
@@ -2183,11 +2217,12 @@
     "notice_amt": 1254898360,
     "dataCrtYm": "202602",
     "candidates": 6,
+    "match": "정확",
     "est_monthly_krw": 4323880,
     "est_annual_krw": 51886571,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "이스타항공": {
@@ -2199,11 +2234,12 @@
     "notice_amt": 478168880,
     "dataCrtYm": "202608",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 3988396,
     "est_annual_krw": 47860760,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "에어프레미아": {
@@ -2215,11 +2251,12 @@
     "notice_amt": 308730040,
     "dataCrtYm": "202605",
     "candidates": 24,
+    "match": "정확",
     "est_monthly_krw": 3688751,
     "est_annual_krw": 44265015,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "아워홈": {
@@ -2231,43 +2268,46 @@
     "notice_amt": 2290229800,
     "dataCrtYm": "202606",
     "candidates": 26,
+    "match": "정확",
     "est_monthly_krw": 3408891,
     "est_annual_krw": 40906700,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "매일경제신문사": {
    "nps": {
     "wkplNm": "(주) 매일경제신문사",
-    "seq": "592939",
+    "seq": "4139038",
     "addr": "서울특별시 중구 퇴계로",
-    "members": 711,
-    "notice_amt": 271469220,
-    "dataCrtYm": "202510",
+    "members": 699,
+    "notice_amt": 282041360,
+    "dataCrtYm": "202604",
     "candidates": 13,
-    "est_monthly_krw": 4019086,
-    "est_annual_krw": 48229041,
+    "match": "정확",
+    "est_monthly_krw": 4247291,
+    "est_annual_krw": 50967492,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "마이리얼트립": {
    "nps": {
     "wkplNm": "주식회사마이리얼트립",
-    "seq": "1286716",
+    "seq": "3760430",
     "addr": "서울특별시 서초구 강남대로",
-    "members": 273,
-    "notice_amt": 113741960,
-    "dataCrtYm": "202511",
+    "members": 269,
+    "notice_amt": 122757060,
+    "dataCrtYm": "202603",
     "candidates": 12,
-    "est_monthly_krw": 4385654,
-    "est_annual_krw": 52627858,
+    "match": "정확",
+    "est_monthly_krw": 4803641,
+    "est_annual_krw": 57643698,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "샤프에비에이션케이": {
@@ -2279,11 +2319,12 @@
     "notice_amt": 384632760,
     "dataCrtYm": "202604",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 3294357,
     "est_annual_krw": 39532295,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "퍼시픽에어에이젠시": {
@@ -2295,27 +2336,29 @@
     "notice_amt": 18733300,
     "dataCrtYm": "202607",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 4585875,
     "est_annual_krw": 55030501,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "락소홀딩스": {
    "nps": {
     "wkplNm": "락소홀딩스주식회사",
-    "seq": "299062",
+    "seq": "2366595",
     "addr": "서울특별시 중구 서소문로11길",
-    "members": 49,
-    "notice_amt": 20190280,
-    "dataCrtYm": "202509",
+    "members": 26,
+    "notice_amt": 12044160,
+    "dataCrtYm": "202601",
     "candidates": 12,
-    "est_monthly_krw": 4337331,
-    "est_annual_krw": 52047982,
+    "match": "정확",
+    "est_monthly_krw": 4876178,
+    "est_annual_krw": 58514137,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "탐스에어서비스": {
@@ -2327,27 +2370,29 @@
     "notice_amt": 4369740,
     "dataCrtYm": "202608",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 3833105,
     "est_annual_krw": 45997263,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "세중해운": {
    "nps": {
     "wkplNm": "세중해운(주)",
-    "seq": "298962",
+    "seq": "2666046",
     "addr": "서울특별시 중구 세종대로18길",
-    "members": 138,
-    "notice_amt": 48927080,
-    "dataCrtYm": "202509",
+    "members": 135,
+    "notice_amt": 50123900,
+    "dataCrtYm": "202601",
     "candidates": 13,
-    "est_monthly_krw": 3732042,
-    "est_annual_krw": 44784512,
+    "match": "정확",
+    "est_monthly_krw": 3908296,
+    "est_annual_krw": 46899555,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "유니코로지스틱스": {
@@ -2359,11 +2404,12 @@
     "notice_amt": 60450680,
     "dataCrtYm": "202607",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 4577862,
     "est_annual_krw": 54934355,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "헬리코리아": {
@@ -2375,27 +2421,29 @@
     "notice_amt": 25779160,
     "dataCrtYm": "202605",
     "candidates": 30,
+    "match": "정확",
     "est_monthly_krw": 4050142,
     "est_annual_krw": 48601715,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한국미쓰이물산": {
    "nps": {
     "wkplNm": "한국미쓰이물산(주)",
-    "seq": "619201",
+    "seq": "5964895",
     "addr": "서울특별시 중구 을지로5길",
-    "members": 100,
-    "notice_amt": 49455840,
-    "dataCrtYm": "202510",
+    "members": 97,
+    "notice_amt": 51002560,
+    "dataCrtYm": "202607",
     "candidates": 12,
-    "est_monthly_krw": 5205877,
-    "est_annual_krw": 62470534,
+    "match": "정확",
+    "est_monthly_krw": 5534732,
+    "est_annual_krw": 66416790,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "한영회계법인": {
@@ -2407,11 +2455,12 @@
     "notice_amt": 1162418000,
     "dataCrtYm": "202602",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5294668,
     "est_annual_krw": 63536022,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   },
   "삼일회계법인": {
@@ -2423,11 +2472,12 @@
     "notice_amt": 2341930240,
     "dataCrtYm": "202602",
     "candidates": 12,
+    "match": "정확",
     "est_monthly_krw": 5628287,
     "est_annual_krw": 67539444,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-09-26"
+    "fetched": "2026-09-28"
    }
   }
  }
