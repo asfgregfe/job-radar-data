@@ -1,8 +1,22 @@
 {
- "generated": "2026-09-29",
+ "generated": "2026-09-30",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [],
+ "ats_new": [
+  {
+   "id": "gh:appier:1623669",
+   "ats": "greenhouse",
+   "company": "Appier",
+   "title": "Campaign Management Intern",
+   "location": "Taipei, Taiwan",
+   "url": "https://job-boards.greenhouse.io/appier/jobs/1623669",
+   "updated": "2026-09-29",
+   "content": "p 【About Appier】 br Appier (TSE: 4180) is an AI-native Agentic AI as a Service (AaaS) company that empowers businesses to create value through cutting-edge AdTech and MarTech solutions. Founded in 2012 with the vision of “Making AI Easy by Making Software Intelligent,” Appier helps businesses turn AI into ROI through its Ad Cloud, Personalization Cloud, and Data Cloud—each powered by Agentic AI that enables autonomous, adaptive, and real-time decision-making. Today, Appier operates 17 offices across APAC, the US, and EMEA, and is listed on the Tokyo Stock Exchange. Learn more at www.appier.com. br br 【About the role】 br The Campaign Management Intern will support the campaign management and tech support teams to facilitate the daily operations workflow related to advertisement campaigns. br br 【Responsibilities】 br - Provide campaign management team with operations requirement. br - Prepare documents and reports necessary for each campaign management sub-team. br - Assist in advertising campaigns operations. br - Co-work amp; provide insight with campaign analyst, and partnership team on optimization related projects. br - Monitor campaign. br br 【About you】 br br [Essential] br - Open to candidates with no working experience. br - Moderate ability in English (Read/Write). br - Ability to use Microsoft offices and image processing tools. br - Diligent, and details oriented. nbsp; br - Interested in new technologies and able to pick up new skills set quickly. br br [Nice to have] br - Digital advertising / RTB /Programmatic buying experience a plus br - Exposure to online ad serving concepts (CPM/CPA/RTB/ROI), video, mobile, social media is a plus. br br 【Commitment】 br - Schedule: 2-3 days per week (16-26 hours). br - Duration: Minimum 6 months. /p p nbsp; /p p #LI-JC1 /p",
+   "first_seen": "2026-09-30",
+   "last_seen": "2026-09-30",
+   "is_new": true
+  }
+ ],
  "companies": {
   "대한항공": {
    "dart": {
