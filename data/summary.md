@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-06
+# 채용 레이더 원천 데이터 요약 — 2026-10-07
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 36건, 신규 1건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 36건, 신규 0건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,8 +14,6 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
-- AlphaSights | Associate, Client Service, Japanese Speaker, 2028 | Tokyo | https://www.alphasights.com/careers/open-roles?gh_jid=7779666
-  - 요약(원문 앞부분): p 入社月： 2028年1月、4月、7月、9月 /p p Onboarding Months: January, April, July, September 2028 /p p *English follows Japanese br nbsp; /p p ペースの早い環境で、営業的な業務からキャリアをスタートさせたい。 /p p 明確なキャリアパスを見据えながら、入社直後から、収益にインパクトを与えたい。 /p p アソシエイトプラグラムは、そのような方向けのポジションです。 /p p strong nbsp; /strong /p p strong AlphaSightsについて /strong /p p AlphaSightsは、意欲的な人材を世界中から採用し、一流の投資ファンド、戦略コンサルティング会社、フォーチュン500企業に向けたビジネスを展開しています。私たちは、クライアン
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -84,10 +82,10 @@
 
 ## 5. 수집 로그
 
-- [greenhouse:alphasights] 전체 59건, 지역·직급 필터 후 20건
+- [greenhouse:alphasights] 전체 58건, 지역·직급 필터 후 20건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 66건, 지역·직급 필터 후 10건
-- [greenhouse:asteralabs] 전체 184건, 지역·직급 필터 후 2건
+- [greenhouse:appier] 전체 65건, 지역·직급 필터 후 10건
+- [greenhouse:asteralabs] 전체 182건, 지역·직급 필터 후 2건
 - [greenhouse:krafton] 전체 53건, 지역·직급 필터 후 4건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
