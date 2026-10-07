@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-07
+# 채용 레이더 원천 데이터 요약 — 2026-10-08
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 36건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 37건, 신규 1건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,6 +14,8 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
+- Appier | Data Analyst / Senior Data Analyst (Enterprise Solution) | Taipei, Taiwan | https://job-boards.greenhouse.io/appier/jobs/7497826
+  - 요약(원문 앞부분): h3 strong About the Role /strong /h3 p We are looking for a strong Data Analytics Consultant /strong in Taiwan to join our strong Enterprise Solution /strong team. /p p In this role, you will serve as the strategic bridge between our product applications, client data, and evolving business requirements. You are the vital link connecting our Product, Customer Success, and Sales teams. Your primary 
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -84,9 +86,9 @@
 
 - [greenhouse:alphasights] 전체 58건, 지역·직급 필터 후 20건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 65건, 지역·직급 필터 후 10건
-- [greenhouse:asteralabs] 전체 182건, 지역·직급 필터 후 2건
-- [greenhouse:krafton] 전체 53건, 지역·직급 필터 후 4건
+- [greenhouse:appier] 전체 66건, 지역·직급 필터 후 11건
+- [greenhouse:asteralabs] 전체 181건, 지역·직급 필터 후 2건
+- [greenhouse:krafton] 전체 54건, 지역·직급 필터 후 4건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [대한항공] 대한항공 2025: 직원 18318명, 평균급여 123315263원
