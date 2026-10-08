@@ -1,22 +1,8 @@
 {
- "generated": "2026-10-08",
+ "generated": "2026-10-09",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [
-  {
-   "id": "gh:appier:7497826",
-   "ats": "greenhouse",
-   "company": "Appier",
-   "title": "Data Analyst / Senior Data Analyst (Enterprise Solution)",
-   "location": "Taipei, Taiwan",
-   "url": "https://job-boards.greenhouse.io/appier/jobs/7497826",
-   "updated": "2026-10-07",
-   "content": "h3 strong About the Role /strong /h3 p We are looking for a strong Data Analytics Consultant /strong in Taiwan to join our strong Enterprise Solution /strong team. /p p In this role, you will serve as the strategic bridge between our product applications, client data, and evolving business requirements. You are the vital link connecting our Product, Customer Success, and Sales teams. Your primary objective is to architect business solutions and successfully implement them using existing products, while simultaneously translating client feedback into actionable requirements for the Product team to drive continuous innovation. /p p To excel in this role, you must develop an in-depth understanding of our products from technical development and service operations to sales strategy. You should possess exceptional communication skills to navigate complex client relationships and internal cross-functional collaborations. /p p nbsp; /p h3 strong Responsibilities /strong /h3 ul li strong Requirement Advocacy: /strong Gather and communicate new requirements and feedback from customers to the Product team to support continuous feature improvement and product-market fit. /li li strong Cross-Functional Collaboration: /strong Partner with Product Managers (PM), Customer Success Managers (CSM), and clients to identify business pain points and provide actionable analytical suggestions. /li li strong Data Modeling amp; Analysis: /strong Utilize SQL and Python to extract data from massive databases, conduct Exploratory Data Analysis (EDA), and build models to analyze business needs and predict user behavior. Further, verify and react with AI tools and validate the analytics results. /li li strong Visualization amp; Reporting: /strong Design and develop automated dashboards (e.g., Tableau or Looker) to provide intuitive, real-time monitoring and insightful data reports. (or proven capability of leveraging AI tools to complete tasks) /li li strong A/B Testing: /strong Design, execute, and analyze experiments to scientifically evaluate the effectiveness of marketing strategies and campaign performance. /li li strong Solution Modeling amp; Frameworks: /strong Design structured frameworks based on client use cases, break them down into actionable analytical tasks, and independently execute and deliver practical business solutions. /li li strong Data Governance: /strong Maintain data accuracy and integrity, ensuring that metrics produced by data pipelines align strictly with business logic and customer requirements. /li /ul p nbsp; /p h3 strong About You /strong /h3 h4 strong [ Minimum Qualifications ] /strong /h4 ul li strong Education: /strong Degree in Statistics, Mathematics, Computer Science, Information Management or a related quantitative field. /li li strong Experience: /strong 2+ years of industry experience in data analytics or a related field. /li li strong Technical Skills: /strong /li ul li Proficient in SQL, Python nbsp; /li li Practical experience in deve",
-   "first_seen": "2026-10-08",
-   "last_seen": "2026-10-08",
-   "is_new": true
-  }
- ],
+ "ats_new": [],
  "companies": {
   "대한항공": {
    "dart": {
