@@ -1,8 +1,22 @@
 {
- "generated": "2026-10-16",
+ "generated": "2026-10-17",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [],
+ "ats_new": [
+  {
+   "id": "gh:appier:5001910",
+   "ats": "greenhouse",
+   "company": "Appier",
+   "title": "Technical Solution Engineer Intern (Ad cloud)",
+   "location": "Taipei, Taiwan",
+   "url": "https://job-boards.greenhouse.io/appier/jobs/5001910",
+   "updated": "2026-10-15",
+   "content": "p 【About Appier】 br Appier (TSE: 4180) is an AI-native Agentic AI as a Service (AaaS) company that empowers businesses to create value through cutting-edge AdTech and MarTech solutions. Founded in 2012 with the vision of “Making AI Easy by Making Software Intelligent,” Appier helps businesses turn AI into ROI through its Ad Cloud, Personalization Cloud, and Data Cloud—each powered by Agentic AI that enables autonomous, adaptive, and real-time decision-making. Today, Appier operates 17 offices across APAC, the US, and EMEA, and is listed on the Tokyo Stock Exchange. Learn more at www.appier.com. br br 【About the role】 br As a Technical Solutions Engineer Intern, you will follow established guidelines and SOPs to help customers integrate and optimize our products, troubleshoot and explore technical issues, and provide expert guidance. Your main responsibility is to execute each task with precision and consistent service. br br - Efficiently follow established guidelines and SOPs to assist new clients with a smooth onboarding and go-live process. br - Maintain a high degree of precision when documenting, communicating, and processing the work and issues to ensure every detail is accurately captured. br - Create and update technical documentation, knowledge base articles, and FAQs to help both customers and internal teams. br - Effectively communicate technical concepts and problems to both technical and non-technical teams. br - Assisting in the evaluation and integration of generative AI tools and platforms into existing workflow. br br 【About you】 br - Currently pursuing a Bachelor s or Master s degree in Computer Science, Engineering, Information Technology, or a related field. br - Basic knowledge of programming, algorithms, and data structures is required. br - Excellent written, verbal communication skills, with the ability to collaborate effectively with teams. br - A passion for technology and a desire to learn. br - Able to utilize generative AI tools effectively. br br 【Nice to have】 br - Familiarity with the components and structures of a URL. br - Understanding of networking, databases, and APIs. br - Familiarity with Python, JavaScript, HTML, SQL.This role offers a unique opportunity to gain hands-on experience and contribute to the development of innovative solutions in a dynamic environment. br br **We are currently looking for individuals who can commit to an internship schedule of 3 days (24 hours) per week. This internship opportunity entails a minimum duration of 6 months, beginning from the present date. We advise prospective applicants to carefully assess their availability for this commitment before submitting their applications.** /p p #LI-JC1 /p",
+   "first_seen": "2026-10-17",
+   "last_seen": "2026-10-17",
+   "is_new": true
+  }
+ ],
  "companies": {
   "대한항공": {
    "dart": {
