@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-17
+# 채용 레이더 원천 데이터 요약 — 2026-10-18
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 34건, 신규 1건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 34건, 신규 0건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,8 +14,6 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
-- Appier | Technical Solution Engineer Intern (Ad cloud) | Taipei, Taiwan | https://job-boards.greenhouse.io/appier/jobs/5001910
-  - 요약(원문 앞부분): p 【About Appier】 br Appier (TSE: 4180) is an AI-native Agentic AI as a Service (AaaS) company that empowers businesses to create value through cutting-edge AdTech and MarTech solutions. Founded in 2012 with the vision of “Making AI Easy by Making Software Intelligent,” Appier helps businesses turn AI into ROI through its Ad Cloud, Personalization Cloud, and Data Cloud—each powered by Agentic AI th
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
