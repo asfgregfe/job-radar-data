@@ -1,4 +1,4 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-26
+# 채용 레이더 원천 데이터 요약 — 2026-10-27
 
 사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 34건, 신규 0건. 기업 데이터 60개사.
 
@@ -86,7 +86,7 @@
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
 - [greenhouse:appier] 전체 66건, 지역·직급 필터 후 9건
 - [greenhouse:asteralabs] 전체 178건, 지역·직급 필터 후 1건
-- [greenhouse:krafton] 전체 56건, 지역·직급 필터 후 4건
+- [greenhouse:krafton] 전체 57건, 지역·직급 필터 후 4건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [대한항공] 대한항공 2025: 직원 18318명, 평균급여 123315263원
