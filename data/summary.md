@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-27
+# 채용 레이더 원천 데이터 요약 — 2026-10-28
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 34건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 33건, 신규 0건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -82,9 +82,9 @@
 
 ## 5. 수집 로그
 
-- [greenhouse:alphasights] 전체 64건, 지역·직급 필터 후 20건
+- [greenhouse:alphasights] 전체 63건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 66건, 지역·직급 필터 후 9건
+- [greenhouse:appier] 전체 67건, 지역·직급 필터 후 9건
 - [greenhouse:asteralabs] 전체 178건, 지역·직급 필터 후 1건
 - [greenhouse:krafton] 전체 57건, 지역·직급 필터 후 4건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
