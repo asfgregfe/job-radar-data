@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-10-29
+# 채용 레이더 원천 데이터 요약 — 2026-10-30
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 33건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 33건, 신규 1건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,6 +14,8 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
+- KRAFTON | [CNTD Dept.] Venture Investment Associate (3~6년) | Seoul; Seoul, South Korea | https://job-boards.greenhouse.io/krafton/jobs/8921074002
+  - 요약(원문 앞부분): div class= content-intro p span style= font-size: 10pt; 우리는 게이머의 로망을 실현하기 위해, 누구도 가지 않는 길을 갑니다. /span br span style= font-size: 10pt; 예상을 뛰어넘는 과감한 상상력과 기술로, 전 세계 팬들이 잊지 못할 세상을 만들기 위해 /span span style= font-size: 10pt; 담대하게 도전하고 개척합니다. nbsp; nbsp; /span /p p span style= font-size: 10pt; We pioneer the path to players dreams. /span br span style= font-size: 10pt; With bold imagination and breakthrou
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -84,9 +86,9 @@
 
 - [greenhouse:alphasights] 전체 63건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 67건, 지역·직급 필터 후 9건
-- [greenhouse:asteralabs] 전체 177건, 지역·직급 필터 후 1건
-- [greenhouse:krafton] 전체 56건, 지역·직급 필터 후 4건
+- [greenhouse:appier] 전체 67건, 지역·직급 필터 후 8건
+- [greenhouse:asteralabs] 전체 171건, 지역·직급 필터 후 1건
+- [greenhouse:krafton] 전체 57건, 지역·직급 필터 후 5건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [대한항공] 대한항공 2025: 직원 18318명, 평균급여 123315263원
