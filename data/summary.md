@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-11-03
+# 채용 레이더 원천 데이터 요약 — 2026-11-04
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 31건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 32건, 신규 1건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,6 +14,8 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
+- Appier | IT Support Intern | Taipei, Taiwan | https://job-boards.greenhouse.io/appier/jobs/7431293
+  - 요약(원문 앞부분): p 【關於本職缺】 br 我們正在尋找Part-time或實習人員。在Appier工作環境中，您將與IT專業團隊一起學習成長，共同協助解決IT營運上的議題與協助IT日常作業任務。您將會接觸到SaaS產品、設備管理與企業網路，透過團隊合作實踐高品質的IT支援服務。 br br 【負責工作項目】 br 1.電腦設備安裝與維護 br 2.會議室設備維護 br 3.電腦資產管理 br 4.解決使用者使用電腦與系統的問題 br 5.網路異常排查 br br 【關於你】 br 1. 具備電腦維修與障礙排除知識 br 2. 網路基本知識 br 3. 具備耐心解決問題 br 4. 一週可安排2~4天工作時間 /p
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -84,9 +86,9 @@
 
 - [greenhouse:alphasights] 전체 63건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 68건, 지역·직급 필터 후 8건
-- [greenhouse:asteralabs] 전체 181건, 지역·직급 필터 후 1건
-- [greenhouse:krafton] 전체 57건, 지역·직급 필터 후 3건
+- [greenhouse:appier] 전체 68건, 지역·직급 필터 후 9건
+- [greenhouse:asteralabs] 전체 183건, 지역·직급 필터 후 1건
+- [greenhouse:krafton] 전체 58건, 지역·직급 필터 후 3건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [대한항공] 대한항공 2025: 직원 18318명, 평균급여 123315263원
