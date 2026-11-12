@@ -1,8 +1,22 @@
 {
- "generated": "2026-11-11",
+ "generated": "2026-11-12",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [],
+ "ats_new": [
+  {
+   "id": "gh:appier:1068719",
+   "ats": "greenhouse",
+   "company": "Appier",
+   "title": "Machine Learning Scientist Intern",
+   "location": "Taipei, Taiwan",
+   "url": "https://job-boards.greenhouse.io/appier/jobs/1068719",
+   "updated": "2026-11-10",
+   "content": "p strong About Appier nbsp; /strong /p p Appier (TSE: 4180) is an AI-native Agentic AI as a Service (AaaS) company that empowers businesses to create value through cutting-edge AdTech and MarTech solutions. Founded in 2012 with the vision of “Making AI Easy by Making Software Intelligent,” Appier helps businesses turn AI into ROI through its Ad Cloud, Personalization Cloud, and Data Cloud—each powered by Agentic AI that enables autonomous, adaptive, and real-time decision-making. Today, Appier operates 17 offices across APAC, the US, and EMEA, and is listed on the Tokyo Stock Exchange. Learn more at www.appier.com. /p p strong About the role /strong /p p We are looking for a Machine Learning Scientist Intern to join the Enterprise Solution Science Team. nbsp; br This team focuses on applying cutting-edge ML technologies to real-world marketing problems by combining them with omnichannel customer data. /p p We are currently looking for individuals who can commit to an internship schedule of 2-5 days (16-40 hours) per week. This internship opportunity entails a minimum duration of 6 months, beginning from the present date. Students from the third year of undergraduate to the second year of master s program are welcome! /p p strong Responsibilities /strong /p ul li Work on one of the following ML or LLM topics: user prediction, recommendation, agents, and chatbots /li li Collaborate closely with senior ML scientists to define ML problems, algorithm development, conduct evaluations, monitoring, and continuous optimization. /li li Stay up to date with the latest research and proactively propose innovative applications /li /ul p strong About you /strong /p p [Minimum qualifications] /p ul li Bachelor’s degree in Computer Science, Machine Learning, Mathematics, Electrical Engineering, or related fields (Master’s degree preferred) /li li 2+ years of experience in ML or LLM /li li Proficient in Python nbsp; /li li Proficient in one of the below ul li Core ML and deep learning concepts: feature engineering, recommendation, regression, classification, clustering, etc. /li li LLM applications development techniques: RAG, agent, chatbots /li /ul /li li Able to evaluate models with systematic and quantitative analysis nbsp; /li li Strong data intuition and familiarity with basic statistical concepts /li /ul p [Preferred qualifications] /p ul li Impact-driven mindset, strong analytical and problem-solving skills, and a continuous passion for learning cutting-edge technologies. /li li Proficient in using LLM-powered tools (e.g., Claude, Codex) to boost development productivity /li /ul p #LI-JC1 /p",
+   "first_seen": "2026-11-12",
+   "last_seen": "2026-11-12",
+   "is_new": true
+  }
+ ],
  "companies": {
   "대한항공": {
    "dart": {
