@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-11-14
+# 채용 레이더 원천 데이터 요약 — 2026-11-15
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 33건, 신규 1건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 33건, 신규 0건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,8 +14,6 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
-- AlphaSights | Associate, Workplace Experience, Japanese Speaker, 2027 | Tokyo | https://www.alphasights.com/careers/open-roles?gh_jid=8384984
-  - 요약(원문 앞부분): h3 About The Role /h3 p AlphaSights is looking for an organised, enthusiastic Workplace Experience Associate to help create a welcoming, productive and well-run Tokyo office. The role combines day-to-day office operations with a strong focus on employee experience, from coordinating vendors and office logistics to supporting events and responding to employee needs. We’re looking for someone who is
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -87,7 +85,7 @@
 - [greenhouse:alphasights] 전체 65건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
 - [greenhouse:appier] 전체 65건, 지역·직급 필터 후 10건
-- [greenhouse:asteralabs] 전체 173건, 지역·직급 필터 후 1건
+- [greenhouse:asteralabs] 전체 172건, 지역·직급 필터 후 1건
 - [greenhouse:krafton] 전체 66건, 지역·직급 필터 후 3건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
 - [lever:bain] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}

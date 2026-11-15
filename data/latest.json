@@ -1,22 +1,8 @@
 {
- "generated": "2026-11-14",
+ "generated": "2026-11-15",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [
-  {
-   "id": "gh:alphasights:8384984",
-   "ats": "greenhouse",
-   "company": "AlphaSights",
-   "title": "Associate, Workplace Experience, Japanese Speaker, 2027",
-   "location": "Tokyo",
-   "url": "https://www.alphasights.com/careers/open-roles?gh_jid=8384984",
-   "updated": "2026-11-13",
-   "content": "h3 About The Role /h3 p AlphaSights is looking for an organised, enthusiastic Workplace Experience Associate to help create a welcoming, productive and well-run Tokyo office. The role combines day-to-day office operations with a strong focus on employee experience, from coordinating vendors and office logistics to supporting events and responding to employee needs. We’re looking for someone who is proactive, team-minded and happy to roll up their sleeves, pitch in where needed and help the team achieve its goals. /p h3 Responsibilities Include: /h3 p strong Office operations and hospitality /strong /p ul li Provide professional, welcoming front-of-house support during core business hours, including greeting visitors and responding to general enquiries. /li li Keep the office tidy, organised and welcoming. /li li Maintain office supplies and kitchen consumables, ordering items cost-effectively and within budget. /li li Coordinate incoming calls, procure and track office resources, and manage incoming and outgoing mail and packages. /li /ul p strong Facilities, vendors and safety /strong /p ul li Build and maintain strong relationships with vendors, including seeking quotations and exploring new suppliers and services. /li li Conduct routine facility inspections, identify issues with furniture, equipment or appliances, and arrange appropriate remedies. /li li Promote health and safety best practices in line with applicable workplace guidelines. /li li Share office-wide updates and serve as a key point of contact for the Workplace Experience and Facilities team in Asia. /li /ul p strong Employee experience and events /strong /p ul li Support employee onboarding and offboarding, working across teams to help ensure a smooth and professional experience. /li li Help plan and deliver in-house and off-site activities, socials and celebrations that support employee engagement, marketing and talent attraction. /li li Coordinate event details from planning through execution, including catering and food and drink deliveries. /li li Assist with event setup, breakdown and clean-up, including reconfiguring furniture. /li /ul p strong Administration and day-to-day support /strong /p ul li rack office expenditure, maintain a clear view of the budget and enter charges into the Master sheet as they occur. /li li Support administrative tasks, including handling business documents, contracts and service agreements. /li li Arrange employee travel in line with company travel guidelines. /li li Run errands, coordinate courier services and take on other ad hoc tasks to support the team. /li /ul h3 What We’re Looking For: /h3 ul li Strong academic credentials (80%+ grade average; equivalent to GPA 3.2/4.0 or 2:1 and above). /li li 1–3 years of relevant work experience, or other evidence of interest in office management, coworking, hospitality, event planning, administration, facilities coordination, operations. /li li Fluent Japanese (JLPT N1 and above) and English at busi",
-   "first_seen": "2026-11-14",
-   "last_seen": "2026-11-14",
-   "is_new": true
-  }
- ],
+ "ats_new": [],
  "companies": {
   "대한항공": {
    "dart": {
@@ -71,7 +57,7 @@
       "평균근속_년": 16.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "대한항공(주)",
@@ -86,7 +72,7 @@
     "est_annual_krw": 72345364,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "진에어": {
@@ -114,7 +100,7 @@
       "평균근속_년": 6.52
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)진에어",
@@ -129,7 +115,7 @@
     "est_annual_krw": 53832538,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "제주항공": {
@@ -157,7 +143,7 @@
       "평균근속_년": 7.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)제주항공",
@@ -172,7 +158,7 @@
     "est_annual_krw": 53858878,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "CJ대한통운": {
@@ -200,7 +186,7 @@
       "평균근속_년": 7.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "CJ대한통운 사하대리점",
@@ -312,7 +298,7 @@
       "평균근속_년": 9.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)한진",
@@ -327,7 +313,7 @@
     "est_annual_krw": 55318805,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "현대글로비스": {
@@ -411,7 +397,7 @@
       "평균근속_년": 7.15
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "현대글로비스(주)",
@@ -426,7 +412,7 @@
     "est_annual_krw": 69690262,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한솔로지스틱스": {
@@ -454,7 +440,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한솔로지스틱스",
@@ -469,7 +455,7 @@
     "est_annual_krw": 55831244,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한솔제지": {
@@ -497,7 +483,7 @@
       "평균근속_년": 9.8
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한솔제지（주）",
@@ -512,7 +498,7 @@
     "est_annual_krw": 65777562,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "동원산업": {
@@ -582,7 +568,7 @@
       "평균근속_년": 6.52
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "동원산업(주)",
@@ -597,7 +583,7 @@
     "est_annual_krw": 57895144,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "기아": {
@@ -625,7 +611,7 @@
       "평균근속_년": 14.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "기아굿모닝의원",
@@ -640,7 +626,7 @@
     "est_annual_krw": 44779295,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "현대자동차": {
@@ -668,7 +654,7 @@
       "평균근속_년": 11.3
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "현대자동차(주)",
@@ -683,7 +669,7 @@
     "est_annual_krw": 75952799,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "LG유플러스": {
@@ -711,7 +697,7 @@
       "평균근속_년": 9.8
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "지원에너지 주식회사/일용/LG유플러스 파주센터 지중관로 및 C주차장 태양광설비 공사",
@@ -753,7 +739,7 @@
       "평균근속_년": 6.9
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한국타이어앤테크놀로지(주)",
@@ -768,7 +754,7 @@
     "est_annual_krw": 70070453,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한국앤컴퍼니": {
@@ -810,7 +796,7 @@
       "평균근속_년": 6.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한국앤컴퍼니(주)",
@@ -825,7 +811,7 @@
     "est_annual_krw": 75146403,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HL만도": {
@@ -853,7 +839,7 @@
       "평균근속_년": 6.7
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HL홀딩스": {
@@ -895,7 +881,7 @@
       "평균근속_년": 5.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HD현대중공업": {
@@ -965,7 +951,7 @@
       "평균근속_년": 3.1
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "HD현대중공업새마을금고",
@@ -1007,7 +993,7 @@
       "평균근속_년": 4.3
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HD현대마린솔루션": {
@@ -1035,7 +1021,7 @@
       "평균근속_년": 5.2
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HD현대오일뱅크": {
@@ -1063,7 +1049,7 @@
       "평균근속_년": 9.9
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "메인테크플랜트주식회사/일용/HD현대오일뱅크 대산 LBO Gr.3 Project 시공 플랜트",
@@ -1105,7 +1091,7 @@
       "평균근속_년": 4.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "（주）환승이엔지/일용/HD현대일렉트릭울산초고압변압기공장증설공사-소방공사",
@@ -1147,7 +1133,7 @@
       "평균근속_년": 6.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한화오션(주)",
@@ -1162,7 +1148,7 @@
     "est_annual_krw": 69663098,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "코스맥스비티아이": {
@@ -1190,7 +1176,7 @@
       "평균근속_년": 4.96
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "코스맥스비티아이(주)",
@@ -1205,7 +1191,7 @@
     "est_annual_krw": 66696822,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "DB손해보험": {
@@ -1233,7 +1219,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "DB손해보험 아이사랑어린이집",
@@ -1248,7 +1234,7 @@
     "est_annual_krw": 33811368,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한화손해보험": {
@@ -1276,7 +1262,7 @@
       "평균근속_년": 13.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한화손해보험주식회사",
@@ -1291,7 +1277,7 @@
     "est_annual_krw": 62337984,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한국투자증권": {
@@ -1361,7 +1347,7 @@
       "평균근속_년": 11.5
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한국투자증권(주)",
@@ -1376,7 +1362,7 @@
     "est_annual_krw": 74194686,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "교보증권": {
@@ -1418,7 +1404,7 @@
       "평균근속_년": 12.59
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "교보증권(주)",
@@ -1433,7 +1419,7 @@
     "est_annual_krw": 71818489,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "신한투자증권": {
@@ -1489,7 +1475,7 @@
       "평균근속_년": 11.91
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "신한투자증권(주)",
@@ -1504,7 +1490,7 @@
     "est_annual_krw": 74701024,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한국자산신탁": {
@@ -1546,7 +1532,7 @@
       "평균근속_년": 9.9
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한국자산신탁(주)",
@@ -1561,7 +1547,7 @@
     "est_annual_krw": 74309772,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "이수화학": {
@@ -1603,7 +1589,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)이수화학",
@@ -1618,7 +1604,7 @@
     "est_annual_krw": 69144598,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "이수페타시스": {
@@ -1646,7 +1632,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)이수페타시스",
@@ -1661,7 +1647,7 @@
     "est_annual_krw": 71085130,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "콜마홀딩스": {
@@ -1689,7 +1675,7 @@
       "평균근속_년": 6.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "콜마홀딩스 주식회사",
@@ -1704,7 +1690,7 @@
     "est_annual_krw": 68683557,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한국콜마": {
@@ -1732,7 +1718,7 @@
       "평균근속_년": 5.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한국콜마주식회사",
@@ -1747,7 +1733,7 @@
     "est_annual_krw": 60102427,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "E1": {
@@ -1775,7 +1761,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "주식회사 E1",
@@ -1790,7 +1776,7 @@
     "est_annual_krw": 72277550,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "HS효성": {
@@ -1818,7 +1804,7 @@
       "평균근속_년": 1.2
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한화호텔앤드리조트": {
@@ -1860,7 +1846,7 @@
       "평균근속_년": 2.6
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "한화호텔앤드리조트(주)",
@@ -1875,7 +1861,7 @@
     "est_annual_krw": 46407669,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "세아홀딩스": {
@@ -1903,7 +1889,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "세아홀딩스(주)",
@@ -1918,7 +1904,7 @@
     "est_annual_krw": 72983534,
     "ceiling_hit": true,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음 (상한 근접 → 과소 추정 확실)",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "슈피겐코리아": {
@@ -1946,7 +1932,7 @@
       "평균근속_년": 4.9
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "주식회사 슈피겐코리아",
@@ -1961,7 +1947,7 @@
     "est_annual_krw": 54287109,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "신세계": {
@@ -1989,7 +1975,7 @@
       "평균근속_년": 13.7
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "주식회사신세계",
@@ -2004,7 +1990,7 @@
     "est_annual_krw": 37201515,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "이마트": {
@@ -2032,7 +2018,7 @@
       "평균근속_년": 13.1
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)이마트",
@@ -2047,7 +2033,7 @@
     "est_annual_krw": 45981941,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "신세계푸드": {
@@ -2075,7 +2061,7 @@
       "평균근속_년": 6.8
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)신세계푸드",
@@ -2090,7 +2076,7 @@
     "est_annual_krw": 51102352,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "크래프톤": {
@@ -2118,7 +2104,7 @@
       "평균근속_년": 3.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)크래프톤",
@@ -2133,7 +2119,7 @@
     "est_annual_krw": 69668851,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "이스트소프트": {
@@ -2161,7 +2147,7 @@
       "평균근속_년": 0.0
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "(주)이스트소프트",
@@ -2176,7 +2162,7 @@
     "est_annual_krw": 49946932,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "카카오모빌리티": {
@@ -2204,7 +2190,7 @@
       "평균근속_년": 3.8
      }
     ],
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    },
    "nps": {
     "wkplNm": "주식회사카카오모빌리티",
@@ -2219,7 +2205,7 @@
     "est_annual_krw": 69137580,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "티웨이항공": {
@@ -2236,7 +2222,7 @@
     "est_annual_krw": 51886571,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "이스타항공": {
@@ -2253,7 +2239,7 @@
     "est_annual_krw": 47843328,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "에어프레미아": {
@@ -2270,7 +2256,7 @@
     "est_annual_krw": 44265015,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "아워홈": {
@@ -2287,7 +2273,7 @@
     "est_annual_krw": 43683826,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "매일경제신문사": {
@@ -2304,7 +2290,7 @@
     "est_annual_krw": 50967492,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "마이리얼트립": {
@@ -2321,7 +2307,7 @@
     "est_annual_krw": 57643698,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "샤프에비에이션케이": {
@@ -2338,7 +2324,7 @@
     "est_annual_krw": 39532295,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "퍼시픽에어에이젠시": {
@@ -2355,7 +2341,7 @@
     "est_annual_krw": 55030501,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "락소홀딩스": {
@@ -2372,7 +2358,7 @@
     "est_annual_krw": 58967848,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "탐스에어서비스": {
@@ -2389,7 +2375,7 @@
     "est_annual_krw": 45997263,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "세중해운": {
@@ -2406,7 +2392,7 @@
     "est_annual_krw": 45511483,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "유니코로지스틱스": {
@@ -2423,7 +2409,7 @@
     "est_annual_krw": 54934355,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "헬리코리아": {
@@ -2440,7 +2426,7 @@
     "est_annual_krw": 50042985,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한국미쓰이물산": {
@@ -2457,7 +2443,7 @@
     "est_annual_krw": 66416790,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "한영회계법인": {
@@ -2474,7 +2460,7 @@
     "est_annual_krw": 63536022,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   },
   "삼일회계법인": {
@@ -2491,7 +2477,7 @@
     "est_annual_krw": 67539444,
     "ceiling_hit": false,
     "note": "국민연금 고지액 기준 추정. 기준소득월액 상한 때문에 실제보다 낮을 수 있음",
-    "fetched": "2026-11-08"
+    "fetched": "2026-11-15"
    }
   }
  }
