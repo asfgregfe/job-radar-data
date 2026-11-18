@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-11-17
+# 채용 레이더 원천 데이터 요약 — 2026-11-18
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 30건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 31건, 신규 2건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,6 +14,10 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
+- AlphaSights | Intern, Client Service, Arabic Speaker, 2027 | Dubai | https://www.alphasights.com/careers/open-roles?gh_jid=8196989
+  - 요약(원문 앞부분): p strong Location: /strong Dubai /p p strong Start date: /strong June 1, 2027 nbsp; /p p strong End date: nbsp; /strong July 31, 2027 /p p strong Duration: /strong 9 weeks /p p Looking for an internship with commercial frontline responsibility and the opportunity to work on live client projects? Do you seek to have immediate personal impact? If so, our Client Service Internship program is the righ
+- AlphaSights | Intern, Client Service, English Speaker, 2027 | Dubai | https://www.alphasights.com/careers/open-roles?gh_jid=8196983
+  - 요약(원문 앞부분): p strong Location: /strong Dubai /p p strong Start date: /strong June 1, 2027 nbsp; /p p strong End date: nbsp; /strong July 31, 2027 /p p strong Duration: /strong 9 weeks /p p Looking for an internship with commercial frontline responsibility and the opportunity to work on live client projects? Do you seek to have immediate personal impact? If so, our Client Service Internship program is the righ
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -82,9 +86,9 @@
 
 ## 5. 수집 로그
 
-- [greenhouse:alphasights] 전체 64건, 지역·직급 필터 후 18건
+- [greenhouse:alphasights] 전체 65건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 64건, 지역·직급 필터 후 8건
+- [greenhouse:appier] 전체 65건, 지역·직급 필터 후 8건
 - [greenhouse:asteralabs] 전체 171건, 지역·직급 필터 후 1건
 - [greenhouse:krafton] 전체 66건, 지역·직급 필터 후 3건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
