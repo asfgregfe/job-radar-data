@@ -1,6 +1,6 @@
-# 채용 레이더 원천 데이터 요약 — 2026-11-19
+# 채용 레이더 원천 데이터 요약 — 2026-11-20
 
-사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 30건, 신규 0건. 기업 데이터 60개사.
+사람인 API: 활성 0건, 오늘 신규 0건. ATS API: 전체 31건, 신규 1건. 기업 데이터 60개사.
 
 ## 1. 사람인 오늘 신규 (마감 임박순) — 원문은 url을 열어 확인할 것
 
@@ -14,6 +14,8 @@
 
 ## 3. ATS(Greenhouse/Lever) 신규
 
+- Appier | Office Administration Intern | Singapore | https://job-boards.greenhouse.io/appier/jobs/8401322
+  - 요약(원문 앞부분): p strong About Appier nbsp; /strong /p p Appier is a software-as-a-service (SaaS) company that uses artificial intelligence (AI) to power business decision-making. Founded in 2012 with a vision of democratizing AI, Appier’s mission is turning AI into ROI by making software intelligent. Appier now has 17 offices across APAC, Europe and U.S., and is listed on the Tokyo Stock Exchange (Ticker number:
 
 ## 4. 기업 데이터 (DART 직원현황 / 국민연금 추정)
 
@@ -82,9 +84,9 @@
 
 ## 5. 수집 로그
 
-- [greenhouse:alphasights] 전체 65건, 지역·직급 필터 후 19건
+- [greenhouse:alphasights] 전체 67건, 지역·직급 필터 후 19건
 - [greenhouse:klook] 결과 없음 또는 오류: {'_error': 'HTTP 404: {"status":404,"error":"Job not found"}'}
-- [greenhouse:appier] 전체 63건, 지역·직급 필터 후 7건
+- [greenhouse:appier] 전체 62건, 지역·직급 필터 후 8건
 - [greenhouse:asteralabs] 전체 174건, 지역·직급 필터 후 1건
 - [greenhouse:krafton] 전체 65건, 지역·직급 필터 후 3건
 - [lever:cake] 오류: {'_error': 'HTTP 404: {"ok":false,"error":"Document not found"}'}
