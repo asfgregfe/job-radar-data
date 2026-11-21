@@ -1,22 +1,8 @@
 {
- "generated": "2026-11-20",
+ "generated": "2026-11-21",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [
-  {
-   "id": "gh:appier:8401322",
-   "ats": "greenhouse",
-   "company": "Appier",
-   "title": "Office Administration Intern",
-   "location": "Singapore",
-   "url": "https://job-boards.greenhouse.io/appier/jobs/8401322",
-   "updated": "2026-11-18",
-   "content": "p strong About Appier nbsp; /strong /p p Appier is a software-as-a-service (SaaS) company that uses artificial intelligence (AI) to power business decision-making. Founded in 2012 with a vision of democratizing AI, Appier’s mission is turning AI into ROI by making software intelligent. Appier now has 17 offices across APAC, Europe and U.S., and is listed on the Tokyo Stock Exchange (Ticker number: 4180). Visit a href= https://www.appier.com www.appier.com /a for more information. /p p strong About the role /strong /p p /p p data-path-to-node= 4 We are looking for a proactive and detail-oriented Office Administration Intern to join our Singapore office. You will help keep our daily office operations running smoothly, including managing office supplies, supporting internal events, assisting with travel arrangements, and handling basic vendor coordination, expenses, and invoicing. /p p data-path-to-node= 5 strong data-path-to-node= 5 data-index-in-node= 0 Job Description /strong /p ul data-path-to-node= 6 li p data-path-to-node= 6,0,0 Maintain the office environment to ensure smooth daily operations. /p /li li p data-path-to-node= 6,1,0 Order and replenish office and pantry supplies. /p /li li p data-path-to-node= 6,2,0 Provide logistics and operational support for internal events. /p /li li p data-path-to-node= 6,3,0 Assist with vendor coordination and office maintenance. /p /li li p data-path-to-node= 6,4,0 Support administrative expenses, invoicing, and contract filing. /p /li li p data-path-to-node= 6,5,0 Perform other ad-hoc administrative duties as assigned. /p /li /ul p data-path-to-node= 7 strong data-path-to-node= 7 data-index-in-node= 0 Working Hours /strong /p ul data-path-to-node= 8 li p data-path-to-node= 8,0,0 Work 3 days a week from 10:00 AM to 3:00 PM (in-office). /p /li li p data-path-to-node= 8,1,0 strong data-path-to-node= 8,1,0 data-index-in-node= 0 Monday is mandatory /strong ; the other 2 days are flexible and negotiable. /p /li li p data-path-to-node= 8,2,0 Working hours and office days can be flexibly discussed during special circumstances (e.g., exams). /p /li /ul p data-path-to-node= 9 strong data-path-to-node= 9 data-index-in-node= 0 Qualifications /strong /p ul data-path-to-node= 10 li p data-path-to-node= 10,0,0 Currently pursuing a Diploma or Bachelor s degree in any discipline (fresh graduates are welcome). /p /li li p data-path-to-node= 10,1,0 Proficient in Google Workspace (Google Sheets, Google Docs, etc.). /p /li li p data-path-to-node= 10,2,0 Proficiency in both English and Mandarin is preferred. /p /li li p data-path-to-node= 10,3,0 Proactive, meticulous, and good at communication. /p /li /ul p data-path-to-node= 11 strong data-path-to-node= 11 data-index-in-node= 0 Allowance amp; Benefits /strong /p ul data-path-to-node= 12 li p data-path-to-node= 12,0,0 SGD 18 per hour /p /li li p data-path-to-node= 12,1,0 Pro-rated annual leave /p /li li CPF /li /ul p #LI-JC1 br br /p",
-   "first_seen": "2026-11-20",
-   "last_seen": "2026-11-20",
-   "is_new": true
-  }
- ],
+ "ats_new": [],
  "companies": {
   "대한항공": {
    "dart": {
