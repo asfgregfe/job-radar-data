@@ -1,8 +1,22 @@
 {
- "generated": "2026-11-25",
+ "generated": "2026-11-26",
  "saramin_new": [],
  "saramin_active_count": 0,
- "ats_new": [],
+ "ats_new": [
+  {
+   "id": "gh:appier:8416503",
+   "ats": "greenhouse",
+   "company": "Appier",
+   "title": "Technical Program Manager, AdCloud AI Bidding (Mandarin Speaking) – Tokyo, Japan",
+   "location": "Tokyo, Japan",
+   "url": "https://job-boards.greenhouse.io/appier/jobs/8416503",
+   "updated": "2026-11-25",
+   "content": "h2 strong About Appier /strong /h2 p Appier is an AI-native Agentic AI as a Service (AaaS) company that uses artificial intelligence (AI) to power business decision-making. Founded in 2012 with a vision of democratizing AI, Appier’s mission is turning AI into ROI by making software intelligent. Appier now has 17 offices across APAC, Europe and U.S., and is listed on the Tokyo Stock Exchange (Ticker number: 4180). Visit nbsp; a href= http://www.appier.com/ www.appier.com /a nbsp;for more information. /p p nbsp; /p h2 strong About the Role /strong /h2 p The AI Bidding team owns the bidding algorithm and campaign optimization behind Appier s programmatic ad platform. We re looking for a TPM to work closely with scientists and serve as the bridge across engineering teams (Scientist, Bidding serving, Creative, Internal Dashboard, Technical support, etc) and drive cross-team technical programs to completion. Business-side communication is primarily routed through the Product Manager, but this role still needs to understand business requirements well enough to translate them into technical scope and trade-offs. /p p nbsp; /p h2 strong What You Will Do /strong /h2 ul li Lead the planning, scheduling, and delivery tracking of cross-team technical programs (e.g., model iteration, algorithm migration, dashboard migration), keeping timelines and priorities aligned /li li Clarify technical details with external partners, and translate them into the design of internal technical solutions /li li Define and maintain SOPs for experiments, feature rollouts, and migration plans (including rollback planning); coordinate A/B test design and rollout sign-off with internal users /li li Run the cross-team working model through acceptance and feasibility reviews, estimation and prioritization rules, and checkpoint cadence, and track them through Jira/BT. /li li Write technical documentation and communication materials that make solutions and trade-offs clear to non-technical stakeholders /li li Perform basic data queries to validate decisions independently (SQL/spreadsheets) nbsp; /li /ul p nbsp; /p h2 strong Minimum Qualifications /strong /h2 ul li 3+ years of experience as a Technical PM, ideally in adtech or e-commerce /li li Dig into and find the fundamental root cause before proposing solutions /li li Experience analyzing pros and cons across solutions /li li Experience coordinating across engineering and business-facing teams, with strong stakeholder management skills /li li Working SQL/data-analysis skills, able to independently validate data for decision-making /li li Familiar with project management tools such as Jira/Confluence /li /ul p nbsp; /p h2 strong Preferred Qualifications /strong /h2 ul li Familiarity with adtech concepts such as attribution, tracking and rendering behavior /li li Experience with real-time bidding / DSP systems / user-value prediction or other online serving systems /li li Basic Python/PySpark skills to write your own queries /li li Fl",
+   "first_seen": "2026-11-26",
+   "last_seen": "2026-11-26",
+   "is_new": true
+  }
+ ],
  "companies": {
   "대한항공": {
    "dart": {
